@@ -1,0 +1,38 @@
+			body{
+				margin: 0px;
+				color: white;
+				background-color: black;
+			}
+			
+			#menu-bar {
+				background-color: deepskyblue;
+				padding: 20px 20px 2px 20px;
+				text-align: center;
+			}
+			
+			.tabs {
+				padding: 5px 5px 5px 5px;
+				margin: 0px;
+			}
+			
+			#selected-tab {
+				background-color: black;
+				color: white;
+			}
+			
+			p {
+				margin: 0px;
+			}
+			
+			#heading {
+				font-family: sans-serif;
+			}
+			
+			a {
+				text-decoration: none;
+				color: white;
+			}
+			
+			#menu {
+				margin: 16px;
+			}
