@@ -1,0 +1,39 @@
+<DOCTYPE! html>
+<html>
+	
+	<head>
+		
+		<title>JS Practice</title>
+		
+	</head>
+	
+	<body>
+
+<div id="head">
+
+<a id="home" onclick="home()">Home</a>
+
+<a id="store" onclick="store()">Store</a>
+
+</div>
+
+<div id="content">
+
+</div>
+
+<script>
+function home() {
+document.getElementById('content').innerHTML="You are in the home!";
+document.getElementById('home').style.color="purple";
+document.getElementById('store').style.color="black";
+}
+function store() {
+document.getElementById('content').innerHTML="You are in the store!";
+document.getElementById('store').style.color="purple";
+document.getElementById('home').style.color="black";
+}
+
+</script>
+	</body>
+
+</html>
