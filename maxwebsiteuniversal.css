@@ -5,7 +5,7 @@
 			}
 			
 			#menu-bar {
-				background-color: #acc4fa;
+				background-color: #ecf2ff;
 				padding: 20px 20px 2px 20px;
 				text-align: center;
 			}
@@ -13,6 +13,11 @@
 			.tabs {
 				padding: 5px 5px 5px 5px;
 				margin: 0px;
+			}
+
+			.tablink {
+				text-decoration: none;
+				color: #7682b5;
 			}
 			
 			#selected-tab {
@@ -26,11 +31,6 @@
 			
 			#heading {
 				font-family: sans-serif;
-			}
-			
-			a {
-				text-decoration: none;
-				color: #7682b5;
 			}
 			
 			#menu {
