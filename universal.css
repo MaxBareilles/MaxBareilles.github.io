@@ -9,20 +9,28 @@
 				padding: 20px 20px 2px 20px;
 				text-align: center;
 			}
-			
-			.tab {
-				padding: 5px 5px 5px 5px;
-				margin: 0px;
-			}
 
 			.tablink {
 				text-decoration: none;
 				color: black;
 			}
 			
+			.tab {
+				padding: 5px 5px 5px 5px;
+				margin: 0px;
+				transition: background 350ms;
+			}
+
+			.tab:hover {
+				background: #cbdcea;
+			}
+			
 			#selected-tab {
-				background-color: white;
-				color: black;
+				background: #b2c4d3;;
+			}
+
+			#selected-tab:hover {
+				background: #a8bbcb;
 			}
 			
 			p {
